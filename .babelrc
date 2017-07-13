@@ -1,0 +1,20 @@
+{
+    "presets": [
+        ["es2015", {"modules": false}],
+        "react",
+        "stage-0"
+    ],
+    "plugins": [
+        "transform-runtime",
+        "transform-object-rest-spread",
+    ],
+    //在开发的时候才启用 HMR 和 Catch Error
+    "env": {
+        "development": {
+            "presets": [
+            ],
+            "plugins": [
+            ]
+        }
+    }
+}
